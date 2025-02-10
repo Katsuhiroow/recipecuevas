@@ -1,0 +1,98 @@
+body {
+    font-family:outfit ;
+    font-size: 16px;
+    background-color: #f5eadd;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    font-family: outfit;
+}
+p{
+    font-size: 16px;
+}
+li, p{
+    color: hsl(30, 10%, 34%);
+}
+h1,h2{
+    font-family: young-serif;
+}
+h3{
+    text-indent: 30px;
+}
+.prep-time li{
+    text-indent: 17px;
+    
+}
+.prep-time ul{
+    padding-left: 45.5px;
+}
+li::marker{
+    
+    color:hsl(14, 45%, 36%);
+}
+strong{
+color: hsl(30, 10%, 34%);
+}
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+ol li{
+    text-indent: 17px;
+    
+}
+ .ingredients li{
+    text-indent: 17px;
+
+}
+h1 {
+    color: #333;
+}
+.prep-time {
+    background: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 8px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+.prep-time p {
+    margin: 5px 0;
+}
+h2 {
+    color: #76453b;
+}
+ul, ol {
+    padding-left: 20px;
+}
+
+.nutritionalitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 16px;
+    color: #5D4037;
+}
+
+.nutritionalitem .value {
+    font-weight: bold;
+    color: #6D4C41;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #D7CCC8; 
+    margin: 4px 0;
+}
